@@ -78,9 +78,6 @@ run_analysis <- function(path = "./UCI HAR Dataset/") {
   tidy <- dcast(molten, subject + activity + variable ~ ..., mean)
   names(tidy)[4] <- "mean"
   
-<<<<<<< HEAD
   write.table(tidy, "tidy_data.txt", row.names = F)
-=======
-  write.table(tidy, "tidy_data.txt", row_names = F)
->>>>>>> b3d76773812c039209ebcbfa4fcc1d64c474c14f
+
 }
