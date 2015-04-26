@@ -8,13 +8,13 @@ the working directory). This directory should contain:
 * features.txt
 * features_info.txt
 * test/
-** subject_test.txt
-** X_test.txt
-** y_test.txt
+  * subject_test.txt
+  * X_test.txt
+  * y_test.txt
 * train/
-** subject_train.txt
-** X_train.txt
-** y_train.txt
+  * subject_train.txt
+  * X_train.txt
+  * y_train.txt
 
 All operations are performed within the run_analysis() function. The function
 outputs a tidy data set containing the means of certain observations contained
