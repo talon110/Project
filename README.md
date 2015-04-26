@@ -18,6 +18,6 @@ the working directory). This directory should contain:
 
 All operations are performed within the run_analysis() function. The function
 outputs a tidy data set containing the means of certain observations contained
-in the test and train observation files. Please see [CodeBook.md](codebook.md) for details
+in the test and train observation files. Please see [CodeBook.md](CodeBook.md) for details
 concerning the transformations performed by the script and the variables used 
 in the tidy data set.
