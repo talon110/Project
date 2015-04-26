@@ -7,7 +7,7 @@ sample
 
 =========
 
-activity: This variable represents the kind of movement the subject was performing when the
+**activity:** This variable represents the kind of movement the subject was performing when the
 observation was made
 
 ===========
