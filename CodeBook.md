@@ -117,7 +117,7 @@ found in the variable column of the generated data set:
 
 ==============
 
-mean: This column depicts the mean of the sample data for a given variable. 
+mean: This column depicts the mean of multiple observations of the sample data for a given variable. 
 
 ## Transformations
 
