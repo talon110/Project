@@ -73,9 +73,11 @@ run_analysis <- function(path = "./UCI HAR Dataset/") {
   # labels, merge activity descriptions
   data <- data[, means_stds] %>% cbind(subjects, labels, .) %>% 
     merge(activity_labels, .) %>% arrange(subject, label) %>% select(-label)
-  View(data)
   
   molten <- melt(data, id = c("subject", "activity"))
   tidy <- dcast(molten, subject + activity + variable ~ ..., mean)
-  View(tidy)
+  names(tidy)[4] <- "mean"
+  write.table(tidy[3], "variables.txt", row.names = F, col.names = F)
+  
+  write.table(tidy, "tidy_data.txt")
 }
